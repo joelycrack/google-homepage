@@ -1,0 +1,17 @@
+*,
+*:before,
+*:after {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.main {
+display: block;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.logo {
+}
+
