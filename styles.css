@@ -3,10 +3,30 @@
 *:after {
     font-size: 14px;
     font-family: arial,sans-serif;
+    border: 1px solid red;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 10%;
+
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+input {
+
+}
+
+button {
+
+}
+
+.material-icons {
 }
 
 .main {
-display: flexbox;
 margin: auto;
 width: 50%;
 border: 3px solid green;
@@ -17,6 +37,22 @@ padding: 10px;
 
 }
 
-.search-form {
-    
+.search-form { /*complete I think*/ 
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.search-bar-icons {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
 }
