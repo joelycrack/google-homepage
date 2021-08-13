@@ -3,16 +3,33 @@
 *:after {
     font-size: 14px;
     font-family: arial,sans-serif;
-    border: 1px solid red;
+  /*  border: 1px solid red; */
 }
 
-body{
+.grid-container {
     display: grid;
-    grid-template-rows: 10%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "header"
+    "content"
+    "footer";
+    align-content: center;
+    /*height: 100vh;*/
+}
 
-    font-size: 14px;
-    font-family: arial,sans-serif;
-    color: #222;
+.grid-container > div {
+    background: #eee;
+}
+
+.grid-container > div:nth-child(odd){
+    background: #ddd;
+}
+
+.grid-1 {
+    
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 10%;
 }
 
 input {
@@ -26,11 +43,13 @@ button {
 .material-icons {
 }
 
-.main {
+.grid-2 {
 margin: auto;
 width: 50%;
-border: 3px solid green;
+border: 10px solid green;
 padding: 10px;
+grid-area: content;
+align-content: center;
 }
 
 .logo {
@@ -55,4 +74,9 @@ padding: 10px;
     display: flex;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
+}
+
+.grid-3 {
+    grid-area: footer;
+    align-content: center;
 }
