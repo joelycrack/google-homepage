@@ -11,4 +11,6 @@ What I learned:
 * Even the most simple looking web pages have a lot of things going visual elements going on when you pay close attention
 * How to manage Github across multiple computers
 * To not allow myself to slow my momentum in learning! Taking a break makes returning to learning more difficult
+* To not copy someone elses CSS from Inspect and just to learn from the fundamentals
+* That having an actual teacher / someone to discuss issues with is immensely more useful than reading docs or watching YouTube
 
