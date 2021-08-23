@@ -3,7 +3,17 @@
 *:after {
     font-size: 14px;
     font-family: arial,sans-serif;
+    color: #222;
   /*  border: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+
 }
 
 
@@ -12,21 +22,65 @@
 .container-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+
 }
 
-.about-store{
+.container-header-left{
 
+}
+
+.top-links-left{
+    display: flex;
+    display:inline-block;
+    padding:5px;
+    margin:0 5px;
+    color:#222
+}
+
+.top-links-left:first-of-type {
+    margin-left: 15px;
+}
+
+.container-header-right {
+    display: flex;
 }
 
 .productivity-links {
     display: flex;
+    align-items: center;
+    padding-left: 15px;
+
+}
+
+
+
+.container-header-icons{
+    display: flex;
+    align-items: center;
 }
 
 .account {
-display: flex;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    }
+
+.apps-icon{
+display: inline;
 }
 
+.profile{
+    align-items: center;
+    max-width: 100%;
+}
+
+
+
 /* Main content styling */
+
 input {
 
 }
@@ -73,13 +127,57 @@ top: 10px;
 }
 
 .search-bar-icons {
-    flex: 1;
-    display: flex;
+    
     padding: 5px 8px 0 16px;
     padding-left: 14px;
 }
 
-.grid-3 {
-    grid-area: footer;
-    align-content: center;
+/* Bottom styling */
+
+.container-footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.UK {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.container-bottom-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;   
+}
+
+.business-links{
+    justify-content: flex-start;
+    min-width: 30%;
+    /* order: 1; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eco{
+     
+}
+
+.eco span{
+    color: #70757a;
+        vertical-align: top;
+}
+
+.eco img{
+    height: 14px;
+    margin-right: 6px;
+}
+
+.privacy{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 30%;
 }
